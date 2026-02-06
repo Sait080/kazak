@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алматы - Қазақстан Туризмі</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-mountain"></i>
+                <span>Qazaqstan</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home">Басты бет</a></li>
+                <li><a href="index.html#destinations" class="active">Туристік нысандар</a></li>
+                <li><a href="index.html#cities">Қалалар</a></li>
+                <li><a href="index.html#nature">Табиғат</a></li>
+                <li><a href="index.html#about">Біз туралы</a></li>
+                <li><a href="index.html#contact">Байланыс</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="detail-hero" style="background-image: url('images/almaty.jpg');">
+        <div class="detail-hero-overlay"></div>
+        <div class="detail-hero-content">
+            <div class="breadcrumb">
+                <a href="index.html">Басты бет</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="index.html#cities">Қалалар</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Алматы</span>
+            </div>
+            <h1>Алматы</h1>
+            <p>Қазақстанның оңтүстік астанасы</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <i class="fas fa-users"></i>
+                    <span>1M+ турист</span>
+                </div>
+                <div class="hero-stat">
+                    <i class="fas fa-star"></i>
+                    <span>4.9 рейтинг</span>
+                </div>
+                <div class="hero-stat">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>12+ нысан</span>
+                </div>
+            </div>
+            <a href="#book" class="btn btn-primary btn-large">Тур брондау</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="detail-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-main">
+                    <h2>Алматы туралы</h2>
+                    <p>Алматы — Қазақстанның ең ірі қаласы және бұрынғы астанасы. 2024 жылдың бірінші жартыжылдығында 1 070 358 турист қабылдады. Қала Тянь-Шань тауларының етегінде орналасқан, бұл оған ерекше климат пен керемет табиғи көріністерді сыйлады.</p>
+                    <p>Алматы — бұл заманауи мегаполис пен табиғаттың үйлесімі. Қалада көптеген саябақтар, скверлер, фонтандар бар. Қаланың ең танымал жерлері — Көктөбе, Медеу мұз айдыны, Шымбұлақ тау шаңғысы курорты және көне Зенков соборы.</p>
+                    
+                    <div class="features-section">
+                        <h3>Негізгі ерекшеліктер</h3>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-mountain"></i>
+                                <h4>Таулы ландшафт</h4>
+                                <p>Тянь-Шань тауларының керемет көріністері</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-tree"></i>
+                                <h4>Жасыл қала</h4>
+                                <p>Көптеген саябақтар мен бульварлар</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-landmark"></i>
+                                <h4>Тарихи мұра</h4>
+                                <p>Көне ғимараттар мен ескерткіштер</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-skiing"></i>
+                                <h4>Тау шаңғысы</h4>
+                                <p>Шымбұлақ және Медеу курорттары</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-sidebar">
+                    <div class="sidebar-card">
+                        <h4>Қала туралы ақпарат</h4>
+                        <ul class="info-list">
+                            <li><span>Халық саны:</span> 2.2 млн</li>
+                            <li><span>Құрылған жылы:</span> 1854</li>
+                            <li><span>Аумағы:</span> 682 км²</li>
+                            <li><span>Биіктігі:</span> 800-900 м</li>
+                            <li><span>Климаты:</span> Континентті</li>
+                            <li><span>Туристер:</span> 1M+ (2024)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h4>Ауа райы</h4>
+                        <div class="weather-widget">
+                            <div class="weather-main">
+                                <i class="fas fa-sun"></i>
+                                <span class="temp">+25°C</span>
+                            </div>
+                            <p>Жазда +20...+30°C</p>
+                            <p>Қыста -5...-15°C</p>
+                            <p>Ең жақсы уақыт: Мамыр-Қыркүйек</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h4>Бағалар</h4>
+                        <ul class="price-list">
+                            <li><span>Қонақ үй:</span> 10 000 - 50 000 тг/түн</li>
+                            <li><span>Тамақ:</span> 3 000 - 10 000 тг</li>
+                            <li><span>Экскурсия:</span> 5 000 - 20 000 тг</li>
+                            <li><span>Транспорт:</span> 500 - 2 000 тг</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">Танымал жерлер</h2>
+            
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/koktobe.jpg" alt="Көктөбе">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Көктөбе</h3>
+                        <p>Алматының ең биік нүктесі. Қаланың панорамалық көрінісі, телебашня, ойын-сауық паркі және мейрамханалар.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 24/7</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/medeu.jpg" alt="Медеу">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Медеу мұз айдыны</h3>
+                        <p>Әлемдегі ең биік ашық мұз айдыны. 1691 метр биіктікте орналасқан. 170+ спорттық рекорд тіркелген.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 10:00-22:00</span>
+                            <span><i class="fas fa-ticket-alt"></i> 2000 тг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/shymbulak.jpg" alt="Шымбұлақ">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Шымбұлақ</h3>
+                        <p>Тау шаңғысы курорты. 2200-3200 метр биіктік. 20+ трассалар, кафелер, қонақ үйлер.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 09:00-18:00</span>
+                            <span><i class="fas fa-ticket-alt"></i> 5000 тг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/almaty-lake.jpg" alt="Үлкен Алматы көлі">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Үлкен Алматы көлі</h3>
+                        <p>Теңіз деңгейінен 2510 метр биіктікте. Түркіз-көк түсті таулы көл. Треккинг, фотосессия.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 08:00-18:00</span>
+                            <span><i class="fas fa-ticket-alt"></i> 500 тг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/kaindy.jpg" alt="Қайыңды көлі">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Қайыңды көлі</h3>
+                        <p>Су астындағы орман - бұл көлдің ерекшелігі. 1911 жылы жер сілкінісінен пайда болған.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> Күндіз</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Шарын шатқалы">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Шарын шатқалы</h3>
+                        <p>Қазақтың Гранд Каньоны. 154 км ұзындық. Қызыл-қоңыр жартастар, керемет көріністер.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> Күндіз</span>
+                            <span><i class="fas fa-ticket-alt"></i> 1000 тг</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Картадағы орналасуы</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186152.3643269079!2d76.8327916!3d43.2173171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e7d16c5cbab%3A0x3d446a1e9bbc76e8!2sAlmaty%2C%20Kazakhstan!5e0!3m2!1sen!2s!4v1704067200000!5m2!1sen!2s"
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 20px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Фотогалерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="images/almaty.jpg" alt="Алматы">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/koktobe.jpg" alt="Көктөбе">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/medeu.jpg" alt="Медеу">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/shymbulak.jpg" alt="Шымбұлақ">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/almaty-lake.jpg" alt="Үлкен Алматы көлі">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="book">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-text">
+                    <h2>Алматыға саяхатты брондаңыз</h2>
+                    <p>Біз сізге тамаша демалыс ұйымдастыруға көмектесеміз. Экскурсиялар, қонақ үйлер, трансфер - бәрін бізге тапсырыңыз!</p>
+                    <ul class="booking-features">
+                        <li><i class="fas fa-check-circle"></i> Тегін консультация</li>
+                        <li><i class="fas fa-check-circle"></i> Жеке турлар</li>
+                        <li><i class="fas fa-check-circle"></i> Топтық жеңілдіктер</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 қолдау</li>
+                    </ul>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <h3>Тур брондау</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Аты-жөні</label>
+                            <input type="text" placeholder="Аты-жөніңіз" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон</label>
+                            <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Адам саны</label>
+                            <select required>
+                                <option value="">Таңдаңыз</option>
+                                <option value="1">1 адам</option>
+                                <option value="2">2 адам</option>
+                                <option value="3-5">3-5 адам</option>
+                                <option value="6+">6+ адам</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Келетін күні</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Кететін күні</label>
+                            <input type="date" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Қосымша тілектер</label>
+                        <textarea rows="3" placeholder="Қосымша ақпарат..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Брондау</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Туристердің пікірлері</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Айгүл Нұрланова</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Алматы - керемет қала! Таулары, саябақтары, адамдары - бәрі ұнады. Ерекше Көктөбеден көрініс таң қалдырды.</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Ерлан Смагулов</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Шымбұлақта шаңғы тебу - тамаша тәжірибе! Қысқы демалыс үшін ең жақсы орын. Медеуде коньки тебуді ұмытпаңыз!</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Мария Иванова</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Үлкен Алматы көлі - бұл сұлулық! Треккинг қиын болғанымен, көрініс сондықтан тұрады. Міндетті түрде барыңыз!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Section -->
+    <section class="related-section">
+        <div class="container">
+            <h2 class="section-title">Ұқсас нысандар</h2>
+            <div class="related-grid">
+                <a href="astana.html" class="related-card">
+                    <img src="images/astana.jpg" alt="Астана">
+                    <h4>Астана</h4>
+                </a>
+                <a href="shymkent.html" class="related-card">
+                    <img src="images/shymkent.jpg" alt="Шымкент">
+                    <h4>Шымкент</h4>
+                </a>
+                <a href="burabay.html" class="related-card">
+                    <img src="images/burabay.jpg" alt="Бурабай">
+                    <h4>Бурабай</h4>
+                </a>
+                <a href="turkistan.html" class="related-card">
+                    <img src="images/turkistan.jpg" alt="Түркістан">
+                    <h4>Түркістан</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-mountain"></i>
+                        <span>Qazaqstan</span>
+                    </div>
+                    <p>Қазақстан - табиғаттың ғажайыптары мен мәдениеттің тоғысқан жері.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Тез сілтемелер</h4>
+                    <ul>
+                        <li><a href="index.html#home">Басты бет</a></li>
+                        <li><a href="index.html#destinations">Туристік нысандар</a></li>
+                        <li><a href="index.html#cities">Қалалар</a></li>
+                        <li><a href="index.html#contact">Байланыс</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Байланыс</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +7 (777) 777-77-77</li>
+                        <li><i class="fas fa-envelope"></i> kazakhstan-tourism.kz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Қазақстан Туризмі. Барлық құқықтар қорғалған.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
